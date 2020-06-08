@@ -6,7 +6,7 @@ meta_description: "TechEdition - Réinventer la technologie"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: ''
+
 email: 'geoakhil@gmail.com'
 google_analytics: 'UA-46278016-1'
 disqus: 'techeditionblog'
