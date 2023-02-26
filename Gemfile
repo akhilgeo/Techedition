@@ -15,7 +15,17 @@ gem "minima", "~> 2.5"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+<<<<<<< HEAD
   gem "jekyll-feed", "~> 0.12"
+=======
+    gem 'jekyll-feed'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-paginate'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-archives'
+    gem 'kramdown'
+    gem 'rouge'
+>>>>>>> parent of e1812ce (relaunch)
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
