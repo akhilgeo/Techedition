@@ -1,0 +1,73 @@
+# Site
+name: "TechEdition"
+title: "TechEdition"
+description: "TechEdition is a blog on Internet, SEO , Social Network , blogging , Modern Gadgets and tech News. Welcome to TechEdition, a tech blog dedicated to exploring the ever-evolving world of technology. Our blog covers a wide range of topics, including the latest developments in internet technology, social media, blogging, tech tips, and everything related to Windows. Our mission is to help our readers stay up-to-date with the latest trends and innovations in the tech world. With a focus on providing informative and insightful content, TechEdition aims to be your go-to source for all things tech. Our tagline, "réinventer la technologie," reflects our commitment to exploring new and innovative ways to use technology to make our lives better. Join us on this exciting journey as we explore the cutting edge of technology and discover new possibilities together."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: 
+google_analytics: 'UA-46278016-1'
+disqus: 'techeditionblog'
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  sal:
+    name: Akhil
+    display_name: Akhil
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "Author of TechEdition, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  john:
+    name: Akhil
+    display_name: Akhil    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing TechEdition demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-admin
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
